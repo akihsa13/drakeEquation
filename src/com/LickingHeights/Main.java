@@ -28,8 +28,10 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         double f_c;
         int L;
 
-        N = rStar + f_p + numberOfExoplanets+ f_l + f_i + f_c + L;
-        System.out.println(" The number of intelligent species that a re out there \n" +
+        Scanner keyboard;
+        keyboard = new Scanner(System.in);
+        System.out.print("how many stars are there in a year (1-9)");
+        rStar = keyboard.nextInt();
                 "thar can communicate with ud is:" + N);
 
 
